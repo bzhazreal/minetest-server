@@ -44,9 +44,10 @@ Commands :
 ```sh
 # Build the container locally
 make build
-# or docker build -t jdll-minetest-server ./
 
 # Run the container locally
 make run
-# or docker run --rm -p 30000:30000/udp jdll-minetest-server --server
+
+# Prompt all makefile commands
+make help
 ```
